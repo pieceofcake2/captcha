@@ -71,7 +71,9 @@ component sets a flash message and redirects back. You can also verify manually 
 
 ## Documentation
 
-See the [documentation](docs/README.md) for the configuration, the helper and component API,
+Documentation: https://pieceofcake2.github.io/captcha/
+
+It covers the configuration, the helper and component API,
 reCAPTCHA v3, CSP nonces, test keys and security notes.
 
 ## Reporting Issues
