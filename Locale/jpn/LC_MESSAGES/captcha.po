@@ -1,0 +1,14 @@
+# Captcha plugin for CakePHP 2
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+
+#: Controller/Component/CaptchaComponent.php
+msgid "CAPTCHA verification failed."
+msgstr "CAPTCHA の検証に失敗しました。"
+
+#: Controller/Component/CaptchaComponent.php
+msgid "CAPTCHA verification failed. Please try again."
+msgstr "CAPTCHA の検証に失敗しました。もう一度お試しください。"

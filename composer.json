@@ -1,0 +1,34 @@
+{
+    "name": "pieceofcake2/captcha",
+    "description": "CAPTCHA plugin for CakePHP 2: Cloudflare Turnstile, Google reCAPTCHA v2/v3 and hCaptcha",
+    "type": "cakephp-plugin",
+    "keywords": ["cakephp", "cakephp2", "captcha", "turnstile", "recaptcha", "hcaptcha"],
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0",
+        "composer/installers": "^1.0 || ^2.0",
+        "pieceofcake2/cakephp": "^2.12"
+    },
+    "require-dev": {
+        "cakephp/cakephp-codesniffer": "^5.0",
+        "phpstan/phpstan": "^2.1",
+        "phpunit/phpunit": "^9.6",
+        "pieceofcake2/app": "^2.2",
+        "pieceofcake2/phpstan-cakephp2": "^0.2.3"
+    },
+    "autoload-dev": {
+        "exclude-from-classmap": [
+            "vendor/pieceofcake2/app/src/Console/Command/AppShell.php"
+        ]
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "composer/installers": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "extra": {
+        "installer-name": "Captcha"
+    }
+}
