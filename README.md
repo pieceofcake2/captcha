@@ -27,7 +27,7 @@ A helper renders the widget and a component verifies the token on the server.
 
 ## Installation
 
-```
+```bash
 composer require pieceofcake2/captcha
 ```
 
