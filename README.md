@@ -20,6 +20,16 @@ A helper renders the widget and a component verifies the token on the server.
 
 ![Turnstile widget in a CakePHP 2 form](docs/img/turnstile.png)
 
+## Documentation
+
+- Website: https://pieceofcake2.github.io/captcha/
+- Markdown: [docs/README.md](docs/README.md) (for AI tools and offline reading)
+
+It covers the configuration, the helper and component API,
+reCAPTCHA v3, CSP nonces, test keys and security notes.
+
+The Markdown documentation is also included in the Composer package, in the plugin's directory: `plugins/Captcha/docs/README.md` (the location depends on your `installer-paths`). Install the package with `--dev` if you only need it for development.
+
 ## Requirements
 
 * PHP 8.0+
@@ -68,13 +78,6 @@ echo $this->Form->end('Send');
 POST requests to `add` are verified before the action runs. When the verification fails, the
 component sets a flash message and redirects back. You can also verify manually with
 `$this->Captcha->verify()`.
-
-## Documentation
-
-Documentation: https://pieceofcake2.github.io/captcha/
-
-It covers the configuration, the helper and component API,
-reCAPTCHA v3, CSP nonces, test keys and security notes.
 
 ## Reporting Issues
 
