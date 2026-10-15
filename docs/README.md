@@ -46,10 +46,10 @@ Configure the provider and the keys with `Configure::write('Captcha', [...])`, f
 [pieceofcake2/app](https://github.com/pieceofcake2/app) skeleton, put them in `config/.env`
 (or set real environment variables in production) and read them with `env()`:
 
-```
+```dotenv
 # config/.env
-export CAPTCHA_SITE_KEY="0x4AAAAAAA..."
-export CAPTCHA_SECRET_KEY="0x4AAAAAAA..."
+CAPTCHA_SITE_KEY="0x4AAAAAAA..."
+CAPTCHA_SECRET_KEY="0x4AAAAAAA..."
 ```
 
 ```php
