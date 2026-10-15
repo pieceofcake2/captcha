@@ -435,3 +435,8 @@ loaded. It is constructed with the merged configuration array.
   [FAQ (test keys, CSP)](https://developers.google.com/recaptcha/docs/faq)
 - hCaptcha: [developer guide](https://docs.hcaptcha.com/),
   [configuration](https://docs.hcaptcha.com/configuration)
+
+## Origin
+
+This package was created by [pieceofcake2](https://github.com/pieceofcake2), which also maintains
+it. It is not a fork of another project and is not based on one.
