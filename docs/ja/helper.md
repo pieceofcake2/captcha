@@ -55,7 +55,7 @@ $this->Captcha->script(['block' => 'script']);
 | オプション | デフォルト | 説明 |
 | --- | --- | --- |
 | `block` | `false` | タグを返す代わりに、このビューブロックに追加します。 |
-| `async`, `defer` | `true` | `async` / `defer` 属性を追加します。 |
+| `async`、`defer` | `true` | `async` / `defer` 属性を追加します。 |
 | `nonce` | `nonce` の設定 | CSP の nonce。 |
 | `render` | | `explicit` にすると、プロバイダーの JavaScript API で自分でウィジェットを表示します。 |
 | `onload` | | スクリプトが読み込まれたときに呼び出されるグローバル関数の名前。 |

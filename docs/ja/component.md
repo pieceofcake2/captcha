@@ -20,7 +20,7 @@ public $components = [
 | --- | --- | --- |
 | `actions` | `[]` | 自動的に検証するアクション。すべてのアクションの場合は `['*']`。 |
 | `methods` | `['post', 'put', 'patch']` | 自動的に検証する HTTP メソッド。 |
-| `onFailure` | `redirect` | `redirect`: フラッシュメッセージを設定してリダイレクトします。`exception`: `exception` をスローします。`none`: 結果を記録するだけです。 |
+| `onFailure` | `redirect` | `redirect`: フラッシュメッセージを設定してリダイレクトします。`exception`: `exception` を投げます。`none`: 結果を記録するだけです。 |
 | `flash` | `CAPTCHA verification failed. Please try again.` | `redirect` のときのフラッシュメッセージ。`false` で表示しません。 |
 | `flashOptions` | `[]` | `FlashComponent::set()` のオプション。例: `['element' => 'error']`。 |
 | `redirect` | リファラー | `redirect` のときのリダイレクト先 URL。 |
