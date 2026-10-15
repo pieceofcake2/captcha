@@ -22,8 +22,8 @@ A helper renders the widget and a component verifies the token on the server.
 
 ## Documentation
 
-- Website: https://pieceofcake2.github.io/captcha/
-- Markdown: [docs/README.md](docs/README.md) and the pages it links (for AI tools and offline reading)
+- Website: https://pieceofcake2.github.io/captcha/ (日本語: https://pieceofcake2.github.io/captcha/ja/)
+- Markdown: [docs/README.md](docs/README.md) and the pages it links (日本語: [docs/ja/README.md](docs/ja/README.md)) (for AI tools and offline reading)
 
 It covers the configuration, the helper and component API,
 reCAPTCHA v3, CSP nonces, test keys and security notes.
