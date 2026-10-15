@@ -70,8 +70,8 @@ public $components = ['Captcha.Captcha' => ['actions' => ['add'], 'action' => 'c
 - hCaptcha の推奨に従って、サイトキーが検証エンドポイントに送信される (`sitekey`) ので、
   別のサイトキーで発行されたトークンは拒否されます。
 - hCaptcha のスクリプトは、`recaptchacompat=off` を付けて読み込まない限り、
-  `g-recaptcha-response` も追加します:
-  `$this->Captcha->widget(['script' => ['query' => ['recaptchacompat' => 'off']]])`。
+  `g-recaptcha-response` も追加します。`recaptchacompat=off` を付けて読み込むには、
+  `$this->Captcha->widget(['script' => ['query' => ['recaptchacompat' => 'off']]])` とします。
 - hCaptcha Enterprise の `score` はチェックされません (hCaptcha のスコアは、高いほどボットの
   可能性が高いことを意味します)。`getResult()->getScore()` で読み取ってください。
 

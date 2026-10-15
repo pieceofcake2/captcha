@@ -25,7 +25,7 @@ public $components = [
 | `flashOptions` | `[]` | `FlashComponent::set()` のオプション。例: `['element' => 'error']`。 |
 | `redirect` | リファラー | `redirect` のときのリダイレクト先 URL。 |
 | `exception` | `ForbiddenException` | `exception` のときの例外クラス。例: `BadRequestException`。 |
-| `trustProxy` | `false` | クライアントの IP (と `'hostname' => true` のときのホスト) をプロキシのヘッダーから読み取ります。[セキュリティに関する注意](security.md#security-notes) を参照してください。 |
+| `trustProxy` | `false` | クライアントの IP (と `'hostname' => true` のときのホスト) をプロキシのヘッダーから読み取ります。[セキュリティに関する注意](security.md#security-notes) をご覧ください。 |
 
 それ以外の設定はプロバイダーの設定で、`Configure::read('Captcha')` を上書きします。
 
