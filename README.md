@@ -42,7 +42,8 @@ composer require pieceofcake2/captcha
 ```
 
 Load the plugin in `config/bootstrap.php` (legacy layout: `app/Config/bootstrap.php`) and configure
-the provider. Keep the keys out of the repository, e.g. in `config/.env`:
+the provider. Keep the keys out of the repository, e.g. in `config/.env.local` (ignored by Git) or in
+real environment variables:
 
 ```php
 CakePlugin::load('Captcha');
