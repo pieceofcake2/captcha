@@ -43,11 +43,12 @@ CakePlugin::load('Captcha');
 
 プロバイダーとキーは、たとえば `config/bootstrap.php` で `Configure::write('Captcha', [...])` を使って
 設定します。キーはコミットしないでください。
-[pieceofcake2/app](https://github.com/pieceofcake2/app) スケルトンでは、キーを `config/.env` に書き
-(本番環境では実際の環境変数を設定し)、`env()` で読み込みます。
+[pieceofcake2/app](https://github.com/pieceofcake2/app) スケルトンでは、キーを Git で無視される
+`config/.env.local` に書き (コミットする `config/.env` には共有のデフォルトだけを書きます)、本番環境では
+実際の環境変数を設定して、`env()` で読み込みます。
 
 ```dotenv
-# config/.env
+# config/.env.local
 CAPTCHA_SITE_KEY="0x4AAAAAAA..."
 CAPTCHA_SECRET_KEY="0x4AAAAAAA..."
 ```

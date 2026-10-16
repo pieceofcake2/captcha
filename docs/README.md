@@ -39,11 +39,12 @@ CakePlugin::load('Captcha');
 
 Configure the provider and the keys with `Configure::write('Captcha', [...])`, for example in
 `config/bootstrap.php`. Do not commit the keys. With the
-[pieceofcake2/app](https://github.com/pieceofcake2/app) skeleton, put them in `config/.env`
-(or set real environment variables in production) and read them with `env()`:
+[pieceofcake2/app](https://github.com/pieceofcake2/app) skeleton, put them in `config/.env.local`,
+which is ignored by Git (the committed `config/.env` holds only shared defaults), or set real
+environment variables in production, and read them with `env()`:
 
 ```dotenv
-# config/.env
+# config/.env.local
 CAPTCHA_SITE_KEY="0x4AAAAAAA..."
 CAPTCHA_SECRET_KEY="0x4AAAAAAA..."
 ```
